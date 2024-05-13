@@ -1,1 +1,11 @@
-v0.2
+v0.3
+function ClickConnect(){
+	console.log("Working");
+	document
+	.querySelector("#top-toolbar > colab-connect-button")
+	.shadowRoot
+	.querySelector("#connect")
+	.click()
+}
+
+setInterval(ClickConnect,90000)
